@@ -10,13 +10,16 @@
 
 	<body>
 		<form> 
-			<select id="colorSelect"> 
-				<option>Red</option> 
-				<option>Green</option> 
-				<option>White</option> 
-				<option>Black</option> 
-			</select> 
-			<input type="button" value="Select and Remove"> 
+		<h2>Color List</h2>
+    <select id="colorDropdown">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+    </select> 
+			<input type="button" value="Select and Remove" onclick="remove()"> 
 		</form>
 
 		<script type="text/javascript" src="./script.js">
